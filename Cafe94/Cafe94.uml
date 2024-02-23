@@ -133,6 +133,21 @@
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_22tIwdKXEe6z0vDZJ3KdTw" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
       </ownedOperation>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wTUCUNKZEe6z0vDZJ3KdTw" name="Monkey" visibility="public">
+      <generalization xmi:type="uml:Generalization" xmi:id="_7dRj4NKaEe6z0vDZJ3KdTw" general="_C8nnwNJCEe6i-ZF4fGlYTA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="__dzPgNKZEe6z0vDZJ3KdTw" name="isHairy" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Kv-HUNKaEe6z0vDZJ3KdTw" name="jumpsUpATree">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Kv-HUdKaEe6z0vDZJ3KdTw" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_g6CVwNKaEe6z0vDZJ3KdTw" name="eatsBanana">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_g6CVwdKaEe6z0vDZJ3KdTw" name="banana">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_g6CVwtKaEe6z0vDZJ3KdTw" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_LDJuYNJgEe6cmaKxhdY3nw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LDQcENJgEe6cmaKxhdY3nw" source="http://www.eclipse.org/uml2/2.0.0/UML">
