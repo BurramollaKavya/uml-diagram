@@ -3,59 +3,6 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_GuYVENI1Ee6LB4d1aAcSOA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Class" xmi:id="_b659MNI1Ee6LB4d1aAcSOA" name="Dog" visibility="public">
-    <generalization xmi:type="uml:Generalization" xmi:id="_xCNXANJJEe6MCcpPmKz9JA" general="_C8nnwNJCEe6i-ZF4fGlYTA"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_pFu3YNJDEe6i-ZF4fGlYTA" name="cat" type="_QcIEYNJDEe6i-ZF4fGlYTA" association="_pFauUNJDEe6i-ZF4fGlYTA">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pFxToNJDEe6i-ZF4fGlYTA" value="*"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_odZdUNJJEe6MCcpPmKz9JA" name="breed">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_lRM6ANI8Ee6LB4d1aAcSOA" name="fetch">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qAqSwNI8Ee6LB4d1aAcSOA" name="ball">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_sJ0XoNI8Ee6LB4d1aAcSOA" name="ball" direction="return">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedParameter>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_vs0kUNI8Ee6LB4d1aAcSOA" name="bark">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_yeEj8NI8Ee6LB4d1aAcSOA" name="woof">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Q4VuANI9Ee6LB4d1aAcSOA" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
-    </ownedOperation>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_136cUNI2Ee6LB4d1aAcSOA" name="Mouse" visibility="public">
-    <generalization xmi:type="uml:Generalization" xmi:id="_xsOkYNJJEe6MCcpPmKz9JA" general="_C8nnwNJCEe6i-ZF4fGlYTA"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_s3oM8NJJEe6MCcpPmKz9JA" name="isHiding">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-    </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_P2jrcNI-Ee6LB4d1aAcSOA" name="squeak">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_P2jrcdI-Ee6LB4d1aAcSOA">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_P2jrctI-Ee6LB4d1aAcSOA" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_YEJ_ANI-Ee6LB4d1aAcSOA" name="eatCheese">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YEJ_AdI-Ee6LB4d1aAcSOA" name="cheese">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_26rmQNJJEe6MCcpPmKz9JA" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
-    </ownedOperation>
-  </packagedElement>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_cfhMgNI9Ee6LB4d1aAcSOA" name="void"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_C8nnwNJCEe6i-ZF4fGlYTA" name="Animal" visibility="private">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_J23dENJCEe6i-ZF4fGlYTA" name="species">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_a-UpENJJEe6MCcpPmKz9JA" name="name">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_cxWs8NJJEe6MCcpPmKz9JA" name="age">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
-  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_pFauUNJDEe6i-ZF4fGlYTA" memberEnd="_pFu3YNJDEe6i-ZF4fGlYTA _pFx6sNJDEe6i-ZF4fGlYTA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pFr0ENJDEe6i-ZF4fGlYTA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pFtCMNJDEe6i-ZF4fGlYTA" key="nature" value="UML_Nature"/>
@@ -68,55 +15,110 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_sLrUotJDEe6i-ZF4fGlYTA" name="cat" type="_QcIEYNJDEe6i-ZF4fGlYTA" association="_sLkm8NJDEe6i-ZF4fGlYTA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_QcIEYNJDEe6i-ZF4fGlYTA" name="Cat" visibility="public">
-    <generalization xmi:type="uml:Generalization" xmi:id="_1oPgQNJEEe6i-ZF4fGlYTA" general="_C8nnwNJCEe6i-ZF4fGlYTA"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_sLqGgdJDEe6i-ZF4fGlYTA" name="mouse" type="_136cUNI2Ee6LB4d1aAcSOA" association="_sLkm8NJDEe6i-ZF4fGlYTA">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLrUodJDEe6i-ZF4fGlYTA" value="*"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_YeqIsNJJEe6MCcpPmKz9JA" name="isHungry">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-    </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_bJC6ENJDEe6i-ZF4fGlYTA" name="meow">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bJC6EdJDEe6i-ZF4fGlYTA" name="meow">
+  <packagedElement xmi:type="uml:Package" xmi:id="_c2AEINKQEe66LNKCgLJxpw" name="cafe94" visibility="public">
+    <packagedElement xmi:type="uml:Class" xmi:id="_FUcfINJgEe6cmaKxhdY3nw" name="Parrot" visibility="public">
+      <generalization xmi:type="uml:Generalization" xmi:id="_jrt_kNJgEe6cmaKxhdY3nw" general="_C8nnwNJCEe6i-ZF4fGlYTA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HYUbYNJgEe6cmaKxhdY3nw" name="isParroting" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_VgdawNJgEe6cmaKxhdY3nw" name="speak">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_VgdawdJgEe6cmaKxhdY3nw" name="speech">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_VgdawtJgEe6cmaKxhdY3nw" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_n5tqMNKFEe6MuI5Fvk69jQ" name="Wolf" visibility="public">
+      <generalization xmi:type="uml:Generalization" xmi:id="_rGkyUNKGEe6MuI5Fvk69jQ" general="_C8nnwNJCEe6i-ZF4fGlYTA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_qcH8kNKFEe6MuI5Fvk69jQ" name="isWild">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ndhoANKGEe6MuI5Fvk69jQ" name="howl">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ndjdMNKGEe6MuI5Fvk69jQ" name="howling">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ndkEQNKGEe6MuI5Fvk69jQ" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_GyqCYNKIEe66LNKCgLJxpw" name="sleep">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_La8cINKIEe66LNKCgLJxpw" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_rRsOcNKMEe6SRrBzXMax9A" name="run">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_rRsOcdKMEe6SRrBzXMax9A" name="run" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_vhL4QNKNEe66LNKCgLJxpw" name="jump">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_vhL4QdKNEe66LNKCgLJxpw" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_b659MNI1Ee6LB4d1aAcSOA" name="Dog" visibility="public">
+      <generalization xmi:type="uml:Generalization" xmi:id="_xCNXANJJEe6MCcpPmKz9JA" general="_C8nnwNJCEe6i-ZF4fGlYTA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_pFu3YNJDEe6i-ZF4fGlYTA" name="cat" type="_QcIEYNJDEe6i-ZF4fGlYTA" association="_pFauUNJDEe6i-ZF4fGlYTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pFxToNJDEe6i-ZF4fGlYTA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_odZdUNJJEe6MCcpPmKz9JA" name="breed">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedParameter>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_eMCxANJDEe6i-ZF4fGlYTA" name="scratch">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_eMCxAdJDEe6i-ZF4fGlYTA" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
-    </ownedOperation>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_FUcfINJgEe6cmaKxhdY3nw" name="Parrot">
-    <generalization xmi:type="uml:Generalization" xmi:id="_jrt_kNJgEe6cmaKxhdY3nw" general="_C8nnwNJCEe6i-ZF4fGlYTA"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_HYUbYNJgEe6cmaKxhdY3nw" name="isParroting" visibility="public">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-    </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_VgdawNJgEe6cmaKxhdY3nw" name="speak">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VgdawdJgEe6cmaKxhdY3nw" name="speech">
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_lRM6ANI8Ee6LB4d1aAcSOA" name="fetch">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_qAqSwNI8Ee6LB4d1aAcSOA" name="ball">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_sJ0XoNI8Ee6LB4d1aAcSOA" name="ball" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_vs0kUNI8Ee6LB4d1aAcSOA" name="bark">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_yeEj8NI8Ee6LB4d1aAcSOA" name="woof">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Q4VuANI9Ee6LB4d1aAcSOA" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_136cUNI2Ee6LB4d1aAcSOA" name="Mouse" visibility="public">
+      <generalization xmi:type="uml:Generalization" xmi:id="_xsOkYNJJEe6MCcpPmKz9JA" general="_C8nnwNJCEe6i-ZF4fGlYTA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_s3oM8NJJEe6MCcpPmKz9JA" name="isHiding">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_P2jrcNI-Ee6LB4d1aAcSOA" name="squeak">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_P2jrcdI-Ee6LB4d1aAcSOA">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_P2jrctI-Ee6LB4d1aAcSOA" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_YEJ_ANI-Ee6LB4d1aAcSOA" name="eatCheese">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_YEJ_AdI-Ee6LB4d1aAcSOA" name="cheese">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_26rmQNJJEe6MCcpPmKz9JA" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_C8nnwNJCEe6i-ZF4fGlYTA" name="Animal" visibility="private">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_J23dENJCEe6i-ZF4fGlYTA" name="species">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VgdawtJgEe6cmaKxhdY3nw" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
-    </ownedOperation>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_n5tqMNKFEe6MuI5Fvk69jQ" name="Wolf">
-    <generalization xmi:type="uml:Generalization" xmi:id="_rGkyUNKGEe6MuI5Fvk69jQ" general="_C8nnwNJCEe6i-ZF4fGlYTA"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_qcH8kNKFEe6MuI5Fvk69jQ" name="isWild">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-    </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_ndhoANKGEe6MuI5Fvk69jQ" name="howl">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ndjdMNKGEe6MuI5Fvk69jQ" name="howling">
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_a-UpENJJEe6MCcpPmKz9JA" name="name">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ndkEQNKGEe6MuI5Fvk69jQ" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_GyqCYNKIEe66LNKCgLJxpw" name="sleep">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_La8cINKIEe66LNKCgLJxpw" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_rRsOcNKMEe6SRrBzXMax9A" name="run">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_rRsOcdKMEe6SRrBzXMax9A" name="run" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_vhL4QNKNEe66LNKCgLJxpw" name="jump">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_vhL4QdKNEe66LNKCgLJxpw" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
-    </ownedOperation>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_cxWs8NJJEe6MCcpPmKz9JA" name="age">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QcIEYNJDEe6i-ZF4fGlYTA" name="Cat" visibility="public">
+      <generalization xmi:type="uml:Generalization" xmi:id="_1oPgQNJEEe6i-ZF4fGlYTA" general="_C8nnwNJCEe6i-ZF4fGlYTA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_sLqGgdJDEe6i-ZF4fGlYTA" name="mouse" type="_136cUNI2Ee6LB4d1aAcSOA" association="_sLkm8NJDEe6i-ZF4fGlYTA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLrUodJDEe6i-ZF4fGlYTA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_YeqIsNJJEe6MCcpPmKz9JA" name="isHungry">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_bJC6ENJDEe6i-ZF4fGlYTA" name="meow">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_bJC6EdJDEe6i-ZF4fGlYTA" name="meow">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_eMCxANJDEe6i-ZF4fGlYTA" name="scratch">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_eMCxAdJDEe6i-ZF4fGlYTA" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_cfhMgNI9Ee6LB4d1aAcSOA" name="void"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_LDJuYNJgEe6cmaKxhdY3nw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LDQcENJgEe6cmaKxhdY3nw" source="http://www.eclipse.org/uml2/2.0.0/UML">
