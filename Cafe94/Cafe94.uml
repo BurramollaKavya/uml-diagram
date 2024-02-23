@@ -119,6 +119,20 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:DataType" xmi:id="_cfhMgNI9Ee6LB4d1aAcSOA" name="void"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4l5q8NKWEe6z0vDZJ3KdTw" name="Lizard" visibility="public">
+      <generalization xmi:type="uml:Generalization" xmi:id="_kFTp0NKYEe6z0vDZJ3KdTw" general="_C8nnwNJCEe6i-ZF4fGlYTA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="__V70UNKWEe6z0vDZJ3KdTw" name="isAlive" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_qOj8gNKXEe6z0vDZJ3KdTw" name="stickingToTheWall">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_qOkjkNKXEe6z0vDZJ3KdTw" name="wall">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_22tIwNKXEe6z0vDZJ3KdTw" name="playDead">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_22tIwdKXEe6z0vDZJ3KdTw" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_LDJuYNJgEe6cmaKxhdY3nw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LDQcENJgEe6cmaKxhdY3nw" source="http://www.eclipse.org/uml2/2.0.0/UML">
