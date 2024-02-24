@@ -51,7 +51,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_b659MNI1Ee6LB4d1aAcSOA" name="Dog" visibility="public">
       <generalization xmi:type="uml:Generalization" xmi:id="_cfY8sNMZEe68kq0IavLJRA" general="_C8nnwNJCEe6i-ZF4fGlYTA"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_pFu3YNJDEe6i-ZF4fGlYTA" name="cat" type="_QcIEYNJDEe6i-ZF4fGlYTA" association="_pFauUNJDEe6i-ZF4fGlYTA">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_pFu3YNJDEe6i-ZF4fGlYTA" name="cats" type="_QcIEYNJDEe6i-ZF4fGlYTA" association="_pFauUNJDEe6i-ZF4fGlYTA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pFxToNJDEe6i-ZF4fGlYTA" value="*"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_odZdUNJJEe6MCcpPmKz9JA" name="breed">
@@ -103,7 +103,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_QcIEYNJDEe6i-ZF4fGlYTA" name="Cat" visibility="public">
       <generalization xmi:type="uml:Generalization" xmi:id="_Z8Q4oNMZEe68kq0IavLJRA" general="_C8nnwNJCEe6i-ZF4fGlYTA"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_sLqGgdJDEe6i-ZF4fGlYTA" name="mouse" type="_136cUNI2Ee6LB4d1aAcSOA" association="_sLkm8NJDEe6i-ZF4fGlYTA">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_sLqGgdJDEe6i-ZF4fGlYTA" name="mice" type="_136cUNI2Ee6LB4d1aAcSOA" association="_sLkm8NJDEe6i-ZF4fGlYTA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sLrUodJDEe6i-ZF4fGlYTA" value="*"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_YeqIsNJJEe6MCcpPmKz9JA" name="isHungry">
