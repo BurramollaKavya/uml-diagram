@@ -135,6 +135,9 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b7sAVNI1Ee6LB4d1aAcSOA"/>
         </children>
         <children xmi:type="notation:BasicCompartment" xmi:id="_b7snYNI1Ee6LB4d1aAcSOA" type="Class_OperationCompartment">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pRfQwNY7Ee6YXNfoZbcacA" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pRf30NY7Ee6YXNfoZbcacA" key="mutable" value="true"/>
+          </eAnnotations>
           <children xmi:type="notation:Shape" xmi:id="_lRnwwNI8Ee6LB4d1aAcSOA" type="Operation_ClassOperationLabel">
             <element xmi:type="uml:Operation" href="Cafe94.uml#_lRM6ANI8Ee6LB4d1aAcSOA"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_lRoX0NI8Ee6LB4d1aAcSOA"/>
@@ -142,6 +145,13 @@
           <children xmi:type="notation:Shape" xmi:id="_vtFqENI8Ee6LB4d1aAcSOA" type="Operation_ClassOperationLabel">
             <element xmi:type="uml:Operation" href="Cafe94.uml#_vs0kUNI8Ee6LB4d1aAcSOA"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_vtGRINI8Ee6LB4d1aAcSOA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_pPcCUNY7Ee6YXNfoZbcacA" type="Operation_ClassOperationLabel">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pRge4NY7Ee6YXNfoZbcacA" source="PapyrusCSSForceValue">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pRge4dY7Ee6YXNfoZbcacA" key="mutable" value="true"/>
+            </eAnnotations>
+            <element xmi:type="uml:Operation" href="Cafe94.uml#_pOOhYNY7Ee6YXNfoZbcacA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_pPcCUdY7Ee6YXNfoZbcacA"/>
           </children>
           <styles xmi:type="notation:TitleStyle" xmi:id="_b7snYdI1Ee6LB4d1aAcSOA"/>
           <styles xmi:type="notation:SortingStyle" xmi:id="_b7snYtI1Ee6LB4d1aAcSOA"/>
@@ -159,7 +169,7 @@
         </children>
         <styles xmi:type="notation:CanonicalStyle" xmi:id="_XSkjUNI5Ee6LB4d1aAcSOA"/>
         <element xmi:type="uml:Class" href="Cafe94.uml#_b659MNI1Ee6LB4d1aAcSOA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b7ZFYdI1Ee6LB4d1aAcSOA" x="148" y="372" width="181" height="21"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b7ZFYdI1Ee6LB4d1aAcSOA" x="148" y="372" width="181" height="101"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_14BxENI2Ee6LB4d1aAcSOA" type="Class_Shape">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RPiQkNI-Ee6LB4d1aAcSOA" source="PapyrusCSSForceValue">

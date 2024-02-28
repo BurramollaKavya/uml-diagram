@@ -71,6 +71,12 @@
         </ownedParameter>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_Q4VuANI9Ee6LB4d1aAcSOA" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
       </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_pOOhYNY7Ee6YXNfoZbcacA" name="sniff">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_pOPIcNY7Ee6YXNfoZbcacA" name="toy">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_pOPIcdY7Ee6YXNfoZbcacA" type="_cfhMgNI9Ee6LB4d1aAcSOA" direction="return"/>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_136cUNI2Ee6LB4d1aAcSOA" name="Mouse" visibility="public">
       <generalization xmi:type="uml:Generalization" xmi:id="_dTzcMNMZEe68kq0IavLJRA" general="_C8nnwNJCEe6i-ZF4fGlYTA"/>
